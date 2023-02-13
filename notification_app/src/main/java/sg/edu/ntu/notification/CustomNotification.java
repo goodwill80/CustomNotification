@@ -20,7 +20,7 @@ public abstract class CustomNotification implements Connectable {
     }
 
     // this will enforce child class to implement send() method
-    public abstract void send();
+    public abstract void send() throws Exception;
 
     // accessor methods
     public String getTo() {
